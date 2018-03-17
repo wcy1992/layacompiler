@@ -1,0 +1,4 @@
+{{#list}}
+module:"{{module}}"
+path:"{{path}}"
+{{/list}}    

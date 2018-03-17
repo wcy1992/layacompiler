@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动程序",
+            "program": "${workspaceRoot}\\bin\\index.js",
+            "args": [
+                // "--modules",
+                // "bag,gui",
+                "--out",
+                "E:/st2/ClientDev/trunk/Client",
+                "--params",
+                "branch=E:/st2/ClientDev/trunk;layaInterface=E:/st2/ClientDev/libs/layaInterface;jasmine=E:/st2l/ClientDev/libs/jasmine",
+                "--projectDir",
+                "E:/st2/Tools/client/build/laya"
+            ],
+            "outFiles": [
+                "${workspaceRoot}/bin/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "附加到端口",
+            "address": "localhost",
+            "port": 5858,
+            "outFiles": []
+        }
+    ]
+}

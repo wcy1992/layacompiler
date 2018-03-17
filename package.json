@@ -1,0 +1,24 @@
+{
+  "name": "layacompiler",
+  "version": "1.0.0",
+  "description": "layaair project compiler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "iconv-lite": "^0.4.16",
+    "path": "^0.12.7",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.0.32",
+    "@types/node": "^7.0.14"
+  },
+  "bin": {
+    "layac": "./bin/index.js"
+  }
+}

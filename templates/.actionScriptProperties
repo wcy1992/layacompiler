@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actionScriptProperties mainApplicationPath="{{mainApplicationPath}}">
+  <compiler outputFolderLocation="{{outputFolderLocation}}" sourceFolderPath="src">
+    <compilerSourcePath>
+      {{#compilerSourcePaths}}
+      <compilerSourcePathEntry kind="1" linkType="1" path="{{path}}"/>
+      {{/compilerSourcePaths}}
+    </compilerSourcePath>
+  </compiler>
+</actionScriptProperties>
